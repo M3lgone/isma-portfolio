@@ -18,8 +18,8 @@ export default function Projects() {
         <motion.div 
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
-        whileHover={{ scale: 1.03, y: -5 }}
-        transition={{ duration: 0.6, delay: 0 }}
+        whileHover={{ scale: 1.015, y: -3 }}
+        transition={{ duration: 0.3, type: "spring", stiffness: 300, damping: 20 }}
         viewport={{ once: true, amount: 0.3 }}
         className="relative overflow-hidden group rounded-xl bg-[#24283b] border border-white/10 hover:border-[#527dc1] transition shadow-sm hover:shadow-xl hover:shadow-[#527dc1]/10"
         >
@@ -86,8 +86,8 @@ export default function Projects() {
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
-          whileHover={{ scale: 1.03, y: -5 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
+          whileHover={{ scale: 1.015, y: -3 }}
+          transition={{ duration: 0.3, type: "spring", stiffness: 300, damping: 20 }}
           viewport={{ once: true, amount: 0.3 }}
           className="relative overflow-hidden group rounded-xl bg-[#24283b] border border-white/10 hover:border-[#527dc1] transition shadow-sm hover:shadow-xl hover:shadow-[#527dc1]/10"
         >
@@ -153,8 +153,8 @@ export default function Projects() {
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
-          whileHover={{ scale: 1.03, y: -5 }}
-          transition={{ duration: 0.6, delay: 0.4 }}
+          whileHover={{ scale: 1.015, y: -3 }}
+          transition={{ duration: 0.3, type: "spring", stiffness: 300, damping: 20 }}
           viewport={{ once: true, amount: 0.3 }}
           className="relative overflow-hidden group rounded-xl bg-[#24283b] border border-white/10 hover:border-[#527dc1] transition shadow-sm hover:shadow-xl hover:shadow-[#527dc1]/10"
         >
@@ -229,8 +229,8 @@ export default function Projects() {
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
-          whileHover={{ scale: 1.03, y: -5 }}
-          transition={{ duration: 0.6, delay: 0.6 }}
+          whileHover={{ scale: 1.015, y: -3 }}
+          transition={{ duration: 0.3, type: "spring", stiffness: 300, damping: 20 }}
           viewport={{ once: true, amount: 0.3 }}
           className="relative overflow-hidden group rounded-xl bg-[#24283b] border border-white/10 hover:border-[#527dc1] transition shadow-sm hover:shadow-xl hover:shadow-[#527dc1]/10"
         >
