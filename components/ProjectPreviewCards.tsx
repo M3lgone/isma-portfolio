@@ -7,36 +7,36 @@ interface ProjectPreviewCardsProps {
 }
 
 export default function ProjectPreviewCards({ isHovered }: ProjectPreviewCardsProps) {
-  const projects = [
-    {
-      id: 1,
-      name: "Project One",
-      color: "from-[#61dafb]/30 to-[#bb9af7]/30",
-      position: "top-[-120px] left-[-180px]",
-      rotation: -12,
-    },
-    {
-      id: 2,
-      name: "Project Two",
-      color: "from-[#bb9af7]/30 to-[#f7768e]/30",
-      position: "top-[-140px] right-[-200px]",
-      rotation: 8,
-    },
-    {
-      id: 3,
-      name: "Project Three",
-      color: "from-[#7dcfff]/30 to-[#9ece6a]/30",
-      position: "bottom-[-100px] left-[-160px]",
-      rotation: 10,
-    },
-    {
-      id: 4,
-      name: "Project Four",
-      color: "from-[#e0af68]/30 to-[#7aa2f7]/30",
-      position: "bottom-[-120px] right-[-180px]",
-      rotation: -8,
-    },
-  ];
+const projects = [
+  {
+    id: 1,
+    name: "Project One",
+    color: "from-[#61dafb]/30 to-[#bb9af7]/30",
+    position: "top-[-200px] left-[-280px]",
+    rotation: -15,
+  },
+  {
+    id: 2,
+    name: "Project Two",
+    color: "from-[#bb9af7]/30 to-[#f7768e]/30",
+    position: "top-[-220px] left-[-100px]",
+    rotation: -5,
+  },
+  {
+    id: 3,
+    name: "Project Three",
+    color: "from-[#7dcfff]/30 to-[#9ece6a]/30",
+    position: "top-[-220px] right-[-100px]",
+    rotation: 5,
+  },
+  {
+    id: 4,
+    name: "Project Four",
+    color: "from-[#e0af68]/30 to-[#7aa2f7]/30",
+    position: "top-[-200px] right-[-280px]",
+    rotation: 15,
+  },
+];
 
   return (
     <AnimatePresence>
