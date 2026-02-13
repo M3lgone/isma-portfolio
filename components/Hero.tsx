@@ -42,13 +42,13 @@ export default function Hero() {
       </p>
 
      <motion.a
-  href="#projects"
-  className="mt-8 inline-block px-8 py-3 bg-[#527dc1] text-[#e0f2fe] rounded-lg font-medium hover:bg-[#4266a8] transition-all hover:scale-105 hover:shadow-lg hover:shadow-[#527dc1]/50"
-  whileHover={{ scale: 1.05 }}
-  whileTap={{ scale: 0.95 }}
->
-  View Projects
-</motion.a>
+      href="#projects"
+      className="mt-8 inline-block px-8 py-3 bg-[#527dc1] text-[#e0f2fe] rounded-lg font-medium hover:bg-[#4266a8] transition-all hover:scale-105 hover:shadow-lg hover:shadow-[#527dc1]/50"
+      whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 0.95 }}
+      >
+      View Projects
+    </motion.a>
       </div>
     </Container>
 

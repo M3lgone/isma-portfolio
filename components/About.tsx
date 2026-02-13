@@ -51,7 +51,7 @@ export default function About() {
               <div className="flex flex-col gap-2 text-sm">
                 <div className="flex items-center gap-2 text-[#a9b1d6]">
                   <MapPin size={16} className="text-[#527dc1]" />
-                  <span>Giroan, Spain</span>
+                  <span>Girona, Spain</span>
                 </div>
                 <div className="flex items-center gap-2 text-[#a9b1d6]">
                   <Briefcase size={16} className="text-[#527dc1]" />

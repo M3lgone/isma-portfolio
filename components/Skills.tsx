@@ -88,13 +88,9 @@ export default function Skills() {
         Skills
       </h2>
 
-      <div className="relative overflow-hidden rounded-xl bg-[#24283b] border border-white/10 hover:border-[#527dc1] transition shadow-sm p-8 min-h-[300px]">
-        
-        <div className="absolute inset-0 opacity-0 hover:opacity-100 transition pointer-events-none">
-          <div className="absolute inset-0 bg-gradient-to-r from-[#527dc1]/10 to-[#bb9af7]/10 blur-xl"></div>
-        </div>
-
-        <div className="relative z-10 flex flex-wrap gap-4 justify-center items-center">
+      {/* Skills flotando libremente sin tarjeta */}
+      <div className="relative py-8">
+        <div className="flex flex-wrap gap-4 justify-center items-center">
           {skills.map((skill, index) => {
             const Icon = skill.icon;
             return (
@@ -121,7 +117,6 @@ export default function Skills() {
             );
           })}
         </div>
-
       </div>
 
     </Section>
