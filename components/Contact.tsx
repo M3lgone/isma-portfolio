@@ -27,7 +27,7 @@ export default function Contact() {
         <div className="mt-10 flex gap-4 flex-wrap">
           <motion.a
             href="mailto:tumail@ejemplo.com"
-            className="inline-flex items-center gap-2 px-8 py-3 bg-[#7aa2f7] text-white rounded-lg font-medium hover:bg-[#6d92e6] transition-all hover:scale-105 hover:shadow-lg hover:shadow-[#7aa2f7]/50"
+            className="inline-flex items-center gap-2 px-8 py-3 bg-[#527dc1] text-[#e0f2fe] rounded-lg font-medium hover:bg-[#4266a8] transition-all hover:scale-105 hover:shadow-lg hover:shadow-[#527dc1]/50"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
@@ -36,10 +36,10 @@ export default function Contact() {
           </motion.a>
 
           <motion.a
-            href="https://github.com/M3lgone"
+            href="https://github.com/tu-usuario"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-8 py-3 bg-transparent border border-[#7aa2f7] text-[#7aa2f7] rounded-lg font-medium hover:bg-[#7aa2f7]/10 transition-all hover:scale-105"
+            className="inline-flex items-center gap-2 px-8 py-3 bg-transparent border border-[#527dc1] text-[#527dc1] rounded-lg font-medium hover:bg-[#527dc1]/10 transition-all hover:scale-105"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
@@ -48,10 +48,10 @@ export default function Contact() {
           </motion.a>
 
           <motion.a
-            href="https://www.linkedin.com/in/ismael-gonzalez-457820398"
+            href="https://linkedin.com/in/tu-usuario"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-8 py-3 bg-transparent border border-[#7aa2f7] text-[#7aa2f7] rounded-lg font-medium hover:bg-[#7aa2f7]/10 transition-all hover:scale-105"
+            className="inline-flex items-center gap-2 px-8 py-3 bg-transparent border border-[#527dc1] text-[#527dc1] rounded-lg font-medium hover:bg-[#527dc1]/10 transition-all hover:scale-105"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
@@ -63,7 +63,7 @@ export default function Contact() {
             href="https://twitter.com/tu-usuario"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-8 py-3 bg-transparent border border-[#7aa2f7] text-[#7aa2f7] rounded-lg font-medium hover:bg-[#7aa2f7]/10 transition-all hover:scale-105"
+            className="inline-flex items-center gap-2 px-8 py-3 bg-transparent border border-[#527dc1] text-[#527dc1] rounded-lg font-medium hover:bg-[#527dc1]/10 transition-all hover:scale-105"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
