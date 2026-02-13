@@ -113,24 +113,13 @@ export default function Navbar() {
             About
           </motion.a>
             
-            {/* AGREGAR ESTE NUEVO LINK */}
-          <motion.a
-            href="#skills"
-            className="relative"
-            ref={(el) => {
-              linkRefs.current["skills"] = el;
-            }}
-          >
-            Skills
-          </motion.a>
-
-          <motion.a
+            <motion.a
             href="#contact"
             className="relative"
             ref={(el) => {
               linkRefs.current["contact"] = el;
             }}
-          >
+            >
             Contact
           </motion.a>
 
