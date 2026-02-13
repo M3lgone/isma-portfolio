@@ -23,13 +23,13 @@ export default function Navbar() {
   let current = "";
 
   // Si estás en la parte superior (Hero), no marcar nada
-  if (window.scrollY < 300) {
+  if (window.scrollY < 200) {
     setActive("");
     return;
   }
 
   sections.forEach((section) => {
-    const sectionTop = section.offsetTop - 200;
+    const sectionTop = section.offsetTop - 100;
 
     // Ignorar el Hero en la detección
     if (section.id === "hero") return;
@@ -78,7 +78,7 @@ export default function Navbar() {
       <div className="flex justify-between items-center py-4 px-6">
 
         <div className="font-semibold text-[#7aa2f7]">
-          Isma.dev
+          IsmaDEV
         </div>
 
         <div className="nav-links relative flex gap-6 text-sm text-[#a9b1d6]">
@@ -111,6 +111,17 @@ export default function Navbar() {
             }}
           >
             About
+          </motion.a>
+            
+            {/* AGREGAR ESTE NUEVO LINK */}
+          <motion.a
+            href="#skills"
+            className="relative"
+            ref={(el) => {
+              linkRefs.current["skills"] = el;
+            }}
+          >
+            Skills
           </motion.a>
 
           <motion.a
