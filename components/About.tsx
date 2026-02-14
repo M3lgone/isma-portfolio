@@ -9,7 +9,7 @@ export default function About() {
   return (
     <Section id="about-section">
 
-      <div className="grid grid-cols-1 lg:grid-cols-5 gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8">
 
         {/* TARJETA CON FOTO - Columna izquierda */}
         <motion.div
@@ -19,7 +19,7 @@ export default function About() {
           viewport={{ once: true }}
           className="lg:col-span-2"
         >
-          <div className="relative overflow-hidden group rounded-xl bg-[#24283b] border border-white/10 hover:border-[#527dc1] transition shadow-sm hover:shadow-xl hover:shadow-[#527dc1]/10 p-6">
+          <div className="relative overflow-hidden group rounded-xl bg-[#24283b] border border-white/10 hover:border-[#527dc1] transition shadow-sm hover:shadow-xl hover:shadow-[#527dc1]/10 p-4 md:p-6">
             
             {/* Efecto glow al hover */}
             <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition pointer-events-none">
@@ -27,7 +27,7 @@ export default function About() {
             </div>
 
             {/* Foto de perfil */}
-            <div className="relative w-full aspect-square mb-6 rounded-2xl overflow-hidden">
+            <div className="relative w-full aspect-square mb-4 md:mb-6 rounded-2xl overflow-hidden">
               <Image
                 src="/images/profile.jpeg"
                 alt="Isma"
@@ -39,11 +39,11 @@ export default function About() {
 
             {/* Info personal */}
             <div className="relative z-10">
-              <h3 className="text-2xl font-semibold mb-2">
+              <h3 className="text-xl md:text-2xl font-semibold mb-2">
                 Hey again 👋
               </h3>
               
-              <p className="text-[#a9b1d6] text-sm leading-relaxed mb-4">
+              <p className="text-[#a9b1d6] text-sm leading-relaxed mb-3 md:mb-4">
                 I'm currently learning and building projects with modern web technologies.
               </p>
 
@@ -72,15 +72,15 @@ export default function About() {
           className="lg:col-span-3"
         >
           <div className="max-w-none">
-            <h2 className="text-3xl font-semibold tracking-tight mb-6">
+            <h2 className="text-2xl md:text-3xl font-semibold tracking-tight mb-4 md:mb-6">
               A little bit about me
             </h2>
             
-            <p className="text-[#a9b1d6] leading-relaxed mb-4">
+            <p className="text-[#a9b1d6] text-sm md:text-base leading-relaxed mb-3 md:mb-4">
               Hi, I'm Isma — a developer who believes technology should feel human. I love building clean, modern websites that combine creativity with clarity. My goal is not just to write code, but to create experiences that feel simple, intuitive and meaningful.
             </p>
             
-            <p className="text-[#a9b1d6] leading-relaxed">
+            <p className="text-[#a9b1d6] text-sm md:text-base leading-relaxed">
               I come from diverse experiences that shaped my way of solving problems and understanding people — something I bring into every project I build.
             </p>
           </div>
